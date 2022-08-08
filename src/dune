@@ -1,0 +1,6 @@
+(library
+ (name source)
+ (public_name Source)
+ (libraries yojson ANSITerminal cohttp lwt cohttp-lwt-unix)
+ (instrumentation
+  (backend bisect_ppx)))

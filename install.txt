@@ -1,0 +1,14 @@
+INSTALL INSTRUCTIONS
+OCAML and OPAM must be installed
+SSL,cohttp and core library must be installed
+
+1. Download and Extract the Files
+2. Run make build in terminal
+3. Run make play in terminal
+
+PLAY INSTRUCTIONS
+1.The game is going to ask first about a major. You have to input 'major "some major"'. The list of majors is also provided to you. If you would like to quit instead just type 'quit'. If you would like to know more information about majoring in 2 majors, then write 'doublemajor' "major1" "major2".
+2.The game is then going to ask you about the college of the major. You have to input 'college "some college name"'. The list of college names is also provided to you. 
+3.If you inputted a wrong major or/and a college not supported by the lists given, the game will keep asking you to input supported answers.
+4.The game will then print some courses for the major you inputted or for the doublemajor depending on the command you entered and ask you some yes/no questions about whether you would like to see some detailed courses for a certain category.
+5.At the end, the game will ask you if there is a course you would like to know more about such as when it is offered and the instructors teaching it. If yes you have to input 'course "some course name"'. The list of course names is also given to you. If you are 'not interested', just type notinterested so you can play the game from the start with any major and college you would like. if you would to quit, say 'quit'.
